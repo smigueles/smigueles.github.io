@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", " Helvetica, sans-serif";
+  font-size: 17px;
+  color: #e7f0e9e0;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url("../images/showcase.jfif");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .contact {
+  display: inline-flex;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e7f0e9e0;
+  border: #e7f0e9e0 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#showcase .button:hover {
+  background: #e7f0e9e0;
+  color: rgb(80, 78, 78);
+}
+
+.button img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
